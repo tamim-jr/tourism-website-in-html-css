@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #777;
+    padding: 30px;
+}
+.header{
+    height: 95vh;
+    background-image: linear-gradient(to right bottom, rgba(128, 253, 128, 0.822), rgba(0, 128, 0, 0.801)), url(/img/hero-back.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0,  100% 500px, 0 100% );
+}
+.logo-box{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+.logo-box img{
+    width: 80px;
+    /* filter: invert(100%); */
+}
+.heading-primary{
+    color: white;
+    text-transform: uppercase;
+}
+.text-box{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.heading-primary-main{
+    display: block;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 35px;
+}
+.heading-primary-sub{
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 12.5px;
+}
